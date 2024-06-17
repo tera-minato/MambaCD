@@ -66,8 +66,8 @@ class Inference(object):
         if not os.path.exists(self.change_map_saved_path):
             os.makedirs(self.change_map_saved_path)
 
-        if not os.path.exists(self.feature_map_saved_path):
-            os.makedirs(self.feature_map_saved_path)
+        #if not os.path.exists(self.feature_map_saved_path):
+         #   os.makedirs(self.feature_map_saved_path)
 
         if args.resume is not None:
             if not os.path.isfile(args.resume):
